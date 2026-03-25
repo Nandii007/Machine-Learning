@@ -11,7 +11,7 @@ def load_data():
     df = data.frame
     df['target'] = data.target
     return df
-#Test run
+#Test
 def preprocess(df):
     features = df[['sepal length (cm)', 'sepal width (cm)', 
                    'petal length (cm)', 'petal width (cm)']]
